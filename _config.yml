@@ -27,11 +27,11 @@ description              : >- # this means to ignore newlines until "baseurl:"
   I am a software engineering leader with 10 years experience in software design, development and implementation mainly on high performant mathematical optimization 
   softwares and real time data ingestion & processing pipelines for IIoT data. Wore many hats including lead software engineer, project manager,
   optimization expert, architect and L3 technical support."
-url                      : "https://omomniabdou.github.io"
+url                      : "https://omoumniabdou.github.io"
 github_username          : omoumniabdou
 baseurl                  : # the subpath of your site, e.g. "/blog"
 og_image                 : /assets/images/avatar.jpg
-repository               : "omoumniabdou/omomniabdou.github.io"
+repository               : "omoumniabdou/omoumniabdou.github.io"
 
 email:
 twitter_username: username
