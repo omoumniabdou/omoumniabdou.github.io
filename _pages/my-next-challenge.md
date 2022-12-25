@@ -1,6 +1,6 @@
 ---
 title: "Why I want to become an Engineering Manager"
-permalink: /my-next-challenge
+permalink: /my-next-challenge/
 id: /my-next-challenge/
 layout: single
 author_profile: true
