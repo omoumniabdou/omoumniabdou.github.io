@@ -23,7 +23,7 @@ title_separator          : "-"
 subtitle                 : "Senior Software/Optimization Engineer"
 name                     : "Othman Moumni Abdou"
 description              : >- # this means to ignore newlines until "baseurl:"
-  I am a Senior Data Engineer at InUse. 
+  I am a Staff Data Engineer at InUse. 
   I am a software engineering leader with 10 years experience in software design, development and implementation mainly on high performant mathematical optimization 
   softwares and real time data ingestion & processing pipelines for IIoT data. Wore many hats including lead software engineer, project manager,
   optimization expert, architect and L3 technical support."
@@ -50,6 +50,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
+  - _posts
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -77,7 +78,7 @@ plugins:
 author:
   name: Othman Moumni Abdou
   avatar: "/assets/images/avatar.jpg"
-  bio: Senior Data Engineer with interest in Software engineering, Data engineering, Optimization and Machine Learning Engineering.
+  bio: Senior Sofware Engineer with interest in Software design, Data, Mathematical Optimization and Machine Learning.
   location: Paris, France
   links:
     - label: LinkedIn
@@ -89,6 +90,10 @@ author:
     - label: Research Gate
       icon: fab fa-researchgate
       url: https://www.researchgate.net/profile/Othman-Moumni-Abdou
+    - label: Curriculum vitæ
+      icon: fas fa-fw fa-file-pdf
+      url: "/assets/CV_Othman_Moumni_Abdou_Light_EN.pdf"
+      
 
 # Site Footer
 footer:
@@ -103,14 +108,13 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
+      comments: false
       related: true
   # _pages
   - scope:
